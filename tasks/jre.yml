@@ -1,0 +1,7 @@
+--- #installs java
+
+  - name: install java
+    apt:
+      force_apt_get: yes
+      name: default-jre
+      state: latest

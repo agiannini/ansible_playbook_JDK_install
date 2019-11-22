@@ -1,0 +1,6 @@
+--- #Installs java development kit
+  - name: instaling java development kit
+    apt:
+      force_apt_get: yes
+      name: openjdk-8-jdk
+      state: latest

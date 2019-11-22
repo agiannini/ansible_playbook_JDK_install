@@ -1,0 +1,4 @@
+---
+# tasks file for java_jdk
+- include: jre.yml
+- include: jdk.yml
