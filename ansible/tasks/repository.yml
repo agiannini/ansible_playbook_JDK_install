@@ -1,0 +1,10 @@
+--- #sets up repository and installs ansible
+  - name: setting up ansible repository 
+    apt_repository:
+      repo: 'ppa:ansible/ansible'
+      codename: trusty
+      state: present
+
+    apt:
+      name: ansible
+      state: present

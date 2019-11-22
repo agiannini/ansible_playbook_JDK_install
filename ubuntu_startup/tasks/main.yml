@@ -1,0 +1,5 @@
+---
+# tasks file for ubuntu_startup
+- include: update.yml
+- include: editors.yml
+- include: networking.yml

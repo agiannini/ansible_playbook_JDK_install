@@ -1,0 +1,6 @@
+---
+  - name: install net-tools
+    apt: 
+      force_apt_get: yes
+      name: net-tools
+      state: present

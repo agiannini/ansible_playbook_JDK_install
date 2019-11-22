@@ -1,0 +1,4 @@
+---
+# tasks file for controller
+- include: prep.yml
+- include: repository.yml

@@ -1,0 +1,13 @@
+---
+  - name: install vim
+    apt:
+      force_apt_get: yes
+      name: vim
+      state: present
+
+
+  - name: install nano
+    apt:
+      force_apt_get: yes
+      name: nano
+      state: present

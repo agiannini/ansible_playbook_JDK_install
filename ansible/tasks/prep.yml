@@ -1,0 +1,12 @@
+--- # installs python3 and gnupg2
+  - name: Installing Python3 and GNUPG2
+    apt:
+      force_apt_get: yes
+      name: gnupg
+      state: present
+
+
+    apt:
+      force_apt_get: yes
+      name: python3
+      state: present
